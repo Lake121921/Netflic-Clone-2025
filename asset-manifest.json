@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Netflic-Clone-2025/static/css/main.415bd2f1.css",
+    "main.js": "/Netflic-Clone-2025/static/js/main.a585c658.js",
+    "static/media/NetflixLogo.png": "/Netflic-Clone-2025/static/media/NetflixLogo.488ee82fb73cee4b08d1.png",
+    "index.html": "/Netflic-Clone-2025/index.html",
+    "main.415bd2f1.css.map": "/Netflic-Clone-2025/static/css/main.415bd2f1.css.map",
+    "main.a585c658.js.map": "/Netflic-Clone-2025/static/js/main.a585c658.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.415bd2f1.css",
+    "static/js/main.a585c658.js"
+  ]
+}
