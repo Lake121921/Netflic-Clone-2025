@@ -6,9 +6,9 @@ import RowList from '../../Components/Rows/RowList/RowList';
 const Home = () => {
   return (
     <>
-       < Header />
+       <Header />
        <Banner />
-     {/* <RowList />*/}
+       <RowList />
        <Footer />
     </>
  

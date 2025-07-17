@@ -9,9 +9,11 @@ const Banner = () => {
         (async()=>{
             try{
                 const request=await axios.get(Requests.fetchNetflixOrginals)
+                //ke axios lay orginal url wesedo keza requests wesite gebito concatinate yadergal.
                 console.log(request);
                 setMovie(request.data.results[
                     Math.floor(Math.random()*request.data.results.length)
+                    //math.floor emilew ke bizu data random display endiaderg new
                 ]);
             }catch(error){
                 console.log("error",error);
@@ -25,7 +27,7 @@ const Banner = () => {
     <div className='banner'
       style={{
         backgroundSize:"cover",
-        backgroundImage:`url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
+        backgroundImage:`url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,//? optional change tibalalech tebiko new change emiadergew(image simeta tebiko new reload emiadergew)
         backgroundPosition:"center",
         backgroundRepeat: "no-repeat"
     }}>
@@ -38,6 +40,7 @@ const Banner = () => {
                 <button className='banner_button'>My List</button>
             </div>
             <h1 className='banner_description'>{truncate(movie?.overview,150)}</h1>
+        
         </div>
         <div className='banner_fadeBottom' />
     </div>
